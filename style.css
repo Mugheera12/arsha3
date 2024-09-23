@@ -1,0 +1,127 @@
+body{
+    font-family: var(--default-font);
+}
+nav a{
+    text-transform: capitalize;
+    
+}
+
+.frount{
+    background-color: #37517E;
+    
+}
+
+
+.frount-image{
+    animation: animate 1.5s linear infinite alternate-reverse;
+    
+}
+
+@keyframes animate{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-10px);
+    }
+}
+
+.text-blue{
+    color: #37517E;
+}
+
+
+
+.gray{
+    width: 15%;
+    height: 1.5px;
+    background-color: lightgrey;
+}
+
+
+.blue{
+    width: 40%;
+    height: 2.5px;
+    background-color: #0dcaf0;
+
+}
+
+.apna{
+    color: #47b2e4;
+}
+.apnano2{
+    color: #39537F;
+}
+
+.second{
+    background-color: #edf0f7;
+}
+
+.back{
+    background-image: url(https://bootstrapmade.com/content/demo/Arsha/assets/img/cta-bg.jpg);
+    background-position: center;
+    height: 280px;
+    background-size: cover;
+}
+
+
+.callto{
+    border: 2px solid white;
+}
+
+.html{
+    width: 100%;
+    height: 10px;
+    background-color:#37517E;
+}
+
+.css{
+    width: 100%;
+    height: 10px;
+    background-color:#edf0f7 ;
+}
+
+.css2{
+    width: 90%;
+    height: 10px;
+    background-color:#37517E ;
+}
+
+
+.javascript{
+    width: 100%;
+    height: 10px;
+    background-color:#edf0f7 ;
+}
+
+.javascript2{
+    width: 75%;
+    height: 10px;
+    background-color:#37517E ;
+}
+
+.alagcolor{
+    color: #47b2e4;
+}
+
+.Photoshop{
+    width: 100%;
+    height: 10px;
+    background-color:#edf0f7 ;
+}
+.re{
+    position: relative;
+    height: 35px;
+    border: 2px solid lightgray;
+}
+.ab{
+    position: absolute;
+    left: 54%;
+    height: 35px;
+    border: none;
+}
+.Photoshop2{
+    width: 55%;
+    height: 10px;
+    background-color:#37517E ;
+}
